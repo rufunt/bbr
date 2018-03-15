@@ -12,3 +12,11 @@ end
 get '/weather' do
    erb :weather
 end
+
+post '/home' do
+  erb :home
+end
+
+get '/home' do
+  erb :home
+end

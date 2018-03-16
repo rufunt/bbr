@@ -13,7 +13,8 @@ get '/weather' do
    erb :weather
 end
 
-post '/home' do
+post '/' do
+  @login = params[:name]
   erb :home
 end
 

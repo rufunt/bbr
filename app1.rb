@@ -15,6 +15,7 @@ end
 
 post '/' do
   @login = params[:name]
+  @password = params[:password]
   erb :home
 end
 

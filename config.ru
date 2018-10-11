@@ -1,2 +1,1 @@
-require 'app1.rb'
-run MyApp.new
+run app1.rb
